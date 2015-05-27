@@ -15,7 +15,7 @@ import rx.schedulers.Schedulers;
 
 public class WeatherService {
 
-    private ReactiveLocationProvider locationProvider;
+    private final ReactiveLocationProvider locationProvider;
 
     private final LocationRequest locationRequest = LocationRequest.create()
             .setPriority(LocationRequest.PRIORITY_LOW_POWER)
