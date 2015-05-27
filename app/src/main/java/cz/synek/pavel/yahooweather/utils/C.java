@@ -8,7 +8,6 @@ public class C {
 
     public static final int UPDATE_RADIUS = 100;
     public static final int UPDATE_INTERVAL = 1000 * 60 * 30;
-    public static final int UPDATE_INTERVAL_DEBUG = 1000 * 5;
 
     private static final String WEATHER_API_KEY = "c46c78943dbf33787691b0936c696";
     public static final String WEATHER_API_ENDPOINT = "http://api.worldweatheronline.com/";
