@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Yahoo Weather</string>
+    <string name="action_settings">Settings</string>
+    <string name="temperature">temperature</string>
+    <string name="wind">wind</string>
+    <string name="error">Couldn\'t load, tap to retry</string>
+    <string name="us_units">US units</string>
+    <string name="metric_units">metric units</string>
+</resources>
