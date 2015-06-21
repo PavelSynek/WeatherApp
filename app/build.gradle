@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
 apply plugin: 'me.tatarka.retrolambda'
 
 android {
@@ -35,4 +36,8 @@ dependencies {
     compile 'com.jakewharton:butterknife:6.1.0'
     compile 'com.pnikosis:materialish-progress:1.5'
     compile 'me.tatarka.rxloader:rxloader:1.1.0'
+
+    apt 'com.google.dagger:dagger-compiler:2.0.1'
+    compile 'com.google.dagger:dagger:2.0.1'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
 }
